@@ -10,6 +10,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <![endif]-->
     <title>เว็บแปลงเลขทศนิยม&แก้ระบบสมการ</title>
+    <link rel="icon" hrfe="{% static 'img/238x238b.jpg' %}" />
+    <link rel="shortcut icon" src="{% static 'img/238x238b.jpg' %}" />
     <!-- BOOTSTRAP CORE STYLE CSS -->
     <link href="{% static 'assets/css/bootstrap.css'%}" rel="stylesheet" />
      <!-- FONTAWESOME STYLE CSS -->
@@ -17,9 +19,7 @@
     <!-- CUSTOM STYLE CSS -->
     <link href="{% static 'assets/css/style.css'%}" rel="stylesheet" />
 </head>
-<style>
-    background-color : black ;
-</style>
+
 
 <body> 
         <div class="navbar navbar-inverse navbar-fixed-top " >
@@ -34,9 +34,12 @@
             </div>
             <div class="navbar-collapse collapse move-me">
                 <ul class="nav navbar-nav navbar-right set-links">
-                    <li><a href="/dto32">แปลงเลขทศนิยมเป็นIEEE 32bit</a></li>
-                     <li><a href="/dto64">แปลงเลขทศนิยมเป็นIEEE 64bit</a></li>
-                     <li><a href="/solve">แก้ระบบสมการเชิงเส้น AX = B</a></li>
+                    <li><a href="/dto32">IEEE32</a></li>
+                     <li><a href="/dto64">IEEE64</a></li>
+                     <li><a href="/solve">AX=B</a></li>
+                     <li><a href="/difer">Differentiation</a></li>
+                     <li><a href="/inte">Integration</a></li>
+                     <li><a href="/root">Root-finding</a></li>
                 </ul>
             </div>
         </div>

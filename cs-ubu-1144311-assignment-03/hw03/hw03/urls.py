@@ -23,4 +23,7 @@ urlpatterns = [
     path('dto32/',views.decto32fp),
     path('dto64/',views.decto64fp),
     path('solve/',views.datasolve),
+    path('difer/',views.differentiation),
+    path('inte/',views.integration),
+    path('root/',views.rootfinding),
 ]
